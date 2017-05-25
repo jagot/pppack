@@ -1,0 +1,11 @@
+#+TITLE: PPPACK
+#+AUTHOR: Carl F. de Boor
+
+Original distribution found at [[http://www.netlib.org/pppack/]].
+
+* Compile instructions
+  #+BEGIN_SRC sh
+    mkdir build/
+    cmake ..
+    make
+  #+END_SRC
