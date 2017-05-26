@@ -10,7 +10,7 @@ target_link_libraries(ixex pppack)
 add_executable(l2ex2 l2main.f l2appr.f l2err.f l2knts.f setdatex2.f)
 target_link_libraries(l2ex2 pppack)
 
-add_executable(l2ex3 l2main.f l2appr.f l2err.f l2knts.f setdatex3.f)
+add_executable(l2ex3 l2main.f l2appr.f l2err.f l2knts.f setdatex3.f newnotfake.f)
 target_link_libraries(l2ex3 pppack)
 
 add_executable(l2ex4 l2main.f l2appr.f l2err.f l2knts.f setdatex4.f titand.f)

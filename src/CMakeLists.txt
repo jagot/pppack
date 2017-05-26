@@ -1,4 +1,4 @@
-add_library(pppack
+add_library(pppack SHARED
   banfac.f
   banslv.f
   bchfac.f
@@ -18,7 +18,6 @@ add_library(pppack
   interv.f
   knots.f
   newnot.f
-  newnotfake.f
   ppvalu.f
   putit.f
   setupq.f

@@ -35,5 +35,9 @@ else (Fortran_COMPILER_NAME MATCHES "gfortran.*")
   set (CMAKE_Fortran_FLAGS_DEBUG   "-O0 -g")
 endif (Fortran_COMPILER_NAME MATCHES "gfortran.*")
 
+if(APPLE)
+  set(CMAKE_MACOSX_RPATH 1)
+endif()
+
 add_subdirectory(src)
 add_subdirectory(examples)
