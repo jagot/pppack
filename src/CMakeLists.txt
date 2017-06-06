@@ -27,3 +27,7 @@ add_library(pppack SHARED
   splint.f
   splopt.f
   tautsp.f)
+
+install(TARGETS pppack
+  RUNTIME DESTINATION bin
+  LIBRARY DESTINATION lib)
