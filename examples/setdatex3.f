@@ -6,7 +6,7 @@ c     in chapter xiv.
 c
       integer icount,  i,k,l,ntau
       real break,coef,gtau,step,tau,totalw,weight
-      parameter lpkmax=100,ntmax=200,ltkmax=2000
+      parameter (lpkmax=100,ntmax=200,ltkmax=2000)
       common / data / ntau, tau(ntmax),gtau(ntmax),weight(ntmax),totalw
       common /approx/ break(lpkmax),coef(ltkmax),l,k
 C     common / data / ntau, tau(200),gtau(200),weight(200),totalw

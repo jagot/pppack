@@ -6,7 +6,7 @@ c     this routine is set up to provide the specific data for example 4
 c     in chapter xiv.
       integer icount,  i,k,l,n,ntau
       real break,brkpic(9),coef,gtau,tau,totalw,weight
-      parameter lpkmax=100,ntmax=200,ltkmax=2000
+      parameter (lpkmax=100,ntmax=200,ltkmax=2000)
       common / data / ntau, tau(ntmax),gtau(ntmax),weight(ntmax),totalw
       common /approx/ break(lpkmax),coef(ltkmax),l,k
 C     common / data / ntau, tau(200),gtau(200),weight(200),totalw

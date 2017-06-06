@@ -14,7 +14,7 @@ c     for keeping track of the passes through setdat . this is important
 c     since l2main relies on setdat for  t e r m i n a t i o n .
       integer icount,  i,k,l,lp1,ntau,ntaum1
       real break,coef,gtau,step,tau,totalw,weight
-      parameter lpkmax=100,ntmax=200,ltkmax=2000
+      parameter (lpkmax=100,ntmax=200,ltkmax=2000)
       common / data / ntau, tau(ntmax),gtau(ntmax),weight(ntmax),totalw
       common /approx/ break(lpkmax),coef(ltkmax),l,k
 C     common / data / ntau, tau(200),gtau(200),weight(200),totalw
